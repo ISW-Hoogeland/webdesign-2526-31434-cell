@@ -1,33 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+  font-family: "Playfair Display", serif;
+}
+
 :root {
-  /* kleuren */
-  --color-bg: #ffffff;  
-  --color-primary: #000000; 
-  --color-secondary: #c19ee0; 
-  --color-text: #000000; 
+  / Kleuren /
+  --white-colour: #FFFFFF;
+  --dark-colour: #252525;
+  --primary-colour:#6247aa; 
+  --secondory-colour: #CFCFE6;
 
-  /* letterypes */
-   --font-main: 'Playfair Display', serif;
-  --font-heading: serif; 
-}
+  / fonts groote /
+  --fonts-weight-normal: 400;
+  --fonts-weight-medium: 500;
+  --fonts-weight-semibold: 600;
+  --fonts-weight-bold: 700;
 
-header{
-  grid-area:  header;
-   grid-area: header;
-  background-color: var(--color-primary);
-  color: white;
-  font-family: 'Playfair Display'(--font-heading);
-  text-align: center;
-  padding: 20px;
+  --border-radius-s: 8px;
+  --border-radius-m:30px;
+
+  
+
+
 }
-nav {
-  grid-area: nav; 
-}
-main{
-  grid-area: main; 
-}
-footer{
-  grid-area:footer; 
-}
-article {
-  flex: 0 0 20%;
-}
+header
