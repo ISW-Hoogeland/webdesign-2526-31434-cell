@@ -148,6 +148,7 @@ background: var(--primary-colour);
   display: flex;
   overflow-x: auto;
   gap: 1em;
+  background-color: var(--primary-colour);
 }
 .carousel::-webkit-scrollbar {
   display: none;
