@@ -123,12 +123,13 @@ background: var(--primary-colour);
   color: var(--secondory-colour);
   font-family: "Poppins", sans-serif;
   font-weight: var(--font-weight-semibold);
+  
 }
 
 .hero-section .hero-details .subtitle {
   margin-top: 8px;
   max-width: 70%;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-l);
   font-weight: var(--font-weight-semibold);
 }
 
@@ -140,4 +141,38 @@ background: var(--primary-colour);
 .image {
   width: 525px;
 }
+.carousel{
+  margin:100px auto;
+  width: 90%;
+  border: 5px solid var(--primary-colour);
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.card{
+  flex: 0 0 5em;
+  height: 5em;
+  padding: 1em;
+  background-color: #252525;
+  border-radius: .2em;
+  font-size: 3rem;
+  text-align: center;
+  align-content: center;
+}
 
+.group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  animation: spin 5s infinite linear;
+  padding: 1em;
+}
+
+@keyframes spin {
+  from {transform: translateX(0);}
+  to {transform: translateX(-100%);
+}
