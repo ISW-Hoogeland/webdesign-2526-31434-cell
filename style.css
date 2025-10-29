@@ -142,8 +142,8 @@ background: var(--primary-colour);
   width: 525px;
 }
 .carousel{
-  margin:100px auto;
-  width: 90%;
+  margin: auto;
+  width: 100%;
   border: 5px solid var(--primary-colour);
   display: flex;
   overflow-x: auto;
@@ -157,14 +157,11 @@ background: var(--primary-colour);
  
 
   padding: 1em;
-  background-color: #252525;
-  
   font-size: 3rem;
   text-align: center;
   align-content: center; 
   flex: 0 0 10em; 
   height: 10em;
-  background-color: #252525;
   border-radius: .5em;
    
 }
