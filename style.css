@@ -123,7 +123,6 @@ background: var(--primary-colour);
   color: var(--secondory-colour);
   font-family: "Poppins", sans-serif;
   font-weight: var(--font-weight-semibold);
-  
 }
 
 .hero-section .hero-details .subtitle {
@@ -188,3 +187,12 @@ background: var(--primary-colour);
     object-fit: cover;
     border-radius: .2em;
   }
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+  transition: transform 2s ease;
+}
