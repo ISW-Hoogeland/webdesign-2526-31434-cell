@@ -47,11 +47,6 @@ a {
 
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  background: none;
-}
 
 img {
   width:100%;
@@ -216,4 +211,4 @@ from {opacity: 0;
 
   }
 
-
+  
