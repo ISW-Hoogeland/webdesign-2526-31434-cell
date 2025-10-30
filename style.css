@@ -61,7 +61,7 @@ img {
 header {
   position: fixed;
   width: 100% ;
-  z-index: 5; / zegt hoe ver alles uitelkaar staat/
+  z-index: 5; 
   background: var(--primary-colour);
 }
 
@@ -212,3 +212,9 @@ from {opacity: 0;
   }
 
   
+.footer {
+  font-size: var(--font-size-xxl);
+  color: var(--secondory-colour);
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--font-weight-semibold);
+}
