@@ -212,7 +212,7 @@ from {opacity: 0;
   }
 
   
-.footer {
+footer {
   font-size: var(--font-size-xxl);
   color: var(--secondory-colour);
   font-family: "Poppins", sans-serif;
