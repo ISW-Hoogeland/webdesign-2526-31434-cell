@@ -213,8 +213,14 @@ from {opacity: 0;
 
   
 footer {
-  font-size: var(--font-size-xxl);
   color: var(--secondory-colour);
-  font-family: "Poppins", sans-serif;
-  font-weight: var(--font-weight-semibold);
+font-size: var(--font-size-m);
+align-items: center;
+ background: var(--lila-color);
+
+}
+footer :hover{
+  background: var(--primary-colour);
+color: var(--white-colour);
+animation-name: ;
 }
