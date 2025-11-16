@@ -265,3 +265,7 @@ footer :hover{
   }
 }
 
+.scene {
+  height: 2000px; /* pagina wordt langer dan scherm */
+  background-color: var(--primary-colour);
+}
