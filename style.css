@@ -270,3 +270,38 @@ footer :hover{
   background-color: var(--primary-colour);
 }
 
+table {
+  width: 110%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  float: right;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: var(--primary-colour);
+  color: var(--secondory-colour);
+  font-weight: var(--font-weight-bold);
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.kleurverandering{
+   background: linear-gradient(to bottom, #6247aa 0%, #000 100%);
+   height: 200vh;
+}
+.space{
+background-color: #000;
+
+}
+.Universum-1{
+  float: left under;
+  background-color: #000;
+}
