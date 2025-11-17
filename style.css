@@ -269,13 +269,4 @@ footer :hover{
   height: 300vh; 
   background-color: var(--primary-colour);
 }
-.circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  /* scroll-linked animatie */
-  animation: growRotate both;
-  animation-timeline: scroll(root); /* nieuwe CSS property */}
-.scroll-space {
-  height: 2000px; /* pagina wordt langer dan het scherm → scroll verschijnt */
-}
+
