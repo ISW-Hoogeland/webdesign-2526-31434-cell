@@ -218,28 +218,11 @@ font-size: var(--font-size-m);
 align-items: center;
  background: var(--lila-color);
 
-}
-footer :hover{
-  background: var(--primary-colour);
-color: var(--white-colour);
 
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-footer :hover{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 
 
-}
 
 .Afbeelding-hobby{
   width: 400px;
@@ -514,34 +497,10 @@ from {opacity: 0;
   }
 
   
-footer {
-  color: var(--secondory-colour);
-font-size: var(--font-size-m);
-align-items: center;
- background: var(--lila-color);
-
-}
-footer :hover{
-  background: var(--primary-colour);
-color: var(--white-colour);
-
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-footer :hover{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 
 
-}
+
+
 
 .Afbeelding-hobby{
   width: 400px;
@@ -648,4 +607,35 @@ height: 120vh;
   font-family: "Poppins", sans-serif;
   font-weight: var(--font-weight-semibold);
   background-color: #000;
+}
+.cookie-banner {
+  position: fixed;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  background: var(--lila-color);
+  color: var(--white-colour);
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+  transition: bottom 0.5s ease;
+}
+
+#cookie-toggle:not(:checked) ~ .cookie-banner {
+  bottom: 0;
+}
+
+#cookie-toggle:checked ~ .cookie-banner {
+  bottom: -100px;
+}
+
+.accept {
+  background: lightcoral;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
 }
