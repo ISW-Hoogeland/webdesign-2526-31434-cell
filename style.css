@@ -618,3 +618,25 @@ align-items: center;
 margin: 0px;
 height: 80vh;
 }
+
+.Laatste-kleurverandering{
+height: 120vh;
+ background: linear-gradient(to bottom, #000000, #6247aa);
+}
+
+.Het-einde{
+  align-items: center;
+  font-size: var(--font-size-xxl);
+  color: var(--secondory-colour);
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--font-weight-semibold);
+  height: 50vh;
+    background-color: var(--primary-colour);
+    
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 120px #fff,
+                 0 0 80px #fff,
+                 0 0 10px#fff;
+                 
+}
