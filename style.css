@@ -639,3 +639,21 @@ height: 120vh;
   font-weight: bold;
   text-decoration: none;
 }
+
+.subtitle:hover{
+   text-shadow: 0 0 20px #fff;
+}
+.cookie-banner:hover{
+  text-shadow: 0 0 20px #fff;
+}
+.description:hover{
+  text-shadow: 0 0 20px #fff;
+}
+.title:hover{
+  text-shadow: 0 0 20px #fff;
+}
+
+.eindtekst:hover{
+  text-shadow: 0 0 20px #fff;
+  transform: scale(1.5rem);
+}
