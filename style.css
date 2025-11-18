@@ -692,5 +692,8 @@ color: var(--primary-colour)
 }
 
 .video-bg{
+  background-color: 00;
   width:100%;
+  z-index:-1;
 }
+
